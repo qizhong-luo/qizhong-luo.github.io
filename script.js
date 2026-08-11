@@ -17,4 +17,4 @@ languageButton.addEventListener('click', () => {
 });
 
 document.getElementById('year').textContent = new Date().getFullYear();
-setLanguage(localStorage.getItem('portfolio-language') || 'en');
+setLanguage(localStorage.getItem('portfolio-language') || 'zh');
